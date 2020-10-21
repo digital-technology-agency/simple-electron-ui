@@ -1,0 +1,41 @@
+{
+  "name": "dta",
+  "productName": "dta-desctop-app",
+  "version": "1.0.0",
+  "description": "simple UI",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack-all": "electron-builder",
+    "pack": "electron-builder --dir",
+    "pack-win": "electron-builder --win"
+  },
+  "author": "Digital Technology Agency",
+  "license": "DTA",
+  "files": [
+    "out"
+  ],
+  "build": {
+    "win": {
+      "icon": "assets/logo.png",
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^9.1.1",
+    "update-electron-app": "^2.0.1",
+    "electron-installer-debian": "^3.1.0",
+    "electron-installer-windows": "^3.0.0",
+    "electron-packager": "^15.1.0",
+    "electron-winstaller": "^4.0.1",
+    "electron-builder": "^22.9.1"
+  }
+}
