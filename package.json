@@ -10,6 +10,18 @@
     "pack": "electron-builder --dir",
     "pack-win": "electron-builder --win"
   },
+  "keywords": [
+    "dta",
+    "dta-desctop",
+    "desktop"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digital-technology-agency/simple-electron-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digital-technology-agency/simple-electron-u/issues"
+  },
   "author": "Digital Technology Agency",
   "license": "DTA",
   "files": [
